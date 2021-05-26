@@ -49,7 +49,7 @@ nav ul
 {
     display: flex;
     border: 0px solid red;
-    margin: 0px 0px 0px 550px;
+    margin: 0px 0px 0px 560px;
     padding: 0px 0px 0px 0px;
 }
 
@@ -211,9 +211,10 @@ label
   display: flex;
 }
 
-#filtres h1
+#filtres h3
 {
-    margin:22px 10px 0px 0px
+    margin:22px 10px 0px 0px;
+    font-size: 1.5em;
 }
 
 .filtres
@@ -352,32 +353,32 @@ section
 
 #image_hebergement_1
 {
-    background-image: url(assets/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-image: url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
 }
 
 #image_hebergement_2
 {
-    background-image:url(assets/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg) 
+    background-image:url(images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg) 
 }
 
 #image_hebergement_3
 {
-    background-image: url(assets/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg)
+    background-image: url(images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg)
 }
 
 #image_hebergement_5
 {
-    background-image: url(assets/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg)
+    background-image: url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg)
 }
 
 #image_hebergement_6
 {
-    background-image: url(assets/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg)
+    background-image: url(images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg)
 }
 
 #image_hebergement_7
 {
-    background-image: url(assets/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg)
+    background-image: url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg)
 }
 
 /*mise en forme des images_hebergements*/
@@ -438,7 +439,7 @@ section
     margin: 0px;
 }
 
-#hebergements_title
+#hebergements h1 
 {
    margin: 20px 0px 0px 15px;
    padding-top:10px ;
@@ -468,17 +469,17 @@ aside
 /*images des plus populaires*/
 #image_les_plus_populaires_1
 {
-    background-image: url(assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg)
+    background-image: url(images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg)
 }
 
 #image_les_plus_populaires_2
 {
-    background-image: url(assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg)
+    background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg)
 }
 
 #image_les_plus_populaires_3
 {
-    background-image: url(assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg) 
+    background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg) 
 }
 
 /*elements aside */
@@ -518,7 +519,7 @@ aside a
     font-weight: bold;
 }
 
-aside h3
+aside h1
 {
   padding: 15px 0px 0px 35px;  
   display: flex;
@@ -527,7 +528,7 @@ aside h3
   font-weight: bold;
 }
 
-aside h3 i
+aside h1 i
 {
    padding: 0px 20px 0px 0px; 
 }
@@ -574,32 +575,32 @@ aside .etoiles
 /*images activites*/
 #vieux_port
 {
-    background-image: url(assets/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg)
+    background-image: url(images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg)
 }
 
 #fort_de_pomegues
 {
-    background-image: url(assets/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg)
+    background-image: url(images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg)
 }
 
 #iles_du_frioul
 {
-    background-image: url(assets/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg)
+    background-image: url(images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg)
 }
 
 #parc_national_des_calanques
 {
-    background-image: url(assets/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg)
+    background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg)
 }
 
 #notre_dame_de_le_garde
 {
-    background-image: url(assets/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg)
+    background-image: url(images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg)
 }
 
 #parc_longchamp
 {
-    background-image: url(assets/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg)
+    background-image: url(images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg)
 }
 
 .image_activite_1
@@ -682,7 +683,7 @@ aside .etoiles
     margin:10px 0px 10px 10px
 }
 
-#activites h4 
+#activites h1
 {
     font-size: 1.5em;
 }
@@ -714,6 +715,11 @@ footer li
 {
   padding:0px;
   margin: 10px 0px 0px -42px;
+}
+
+footer a 
+{
+    color: black;
 }
 
 /* responsive tablette*/
@@ -789,7 +795,7 @@ footer li
     }
 
 
-    #filtres h1 
+    #filtres h3
     {
         margin: 0px 0px 0px 50px;
         text-align: left;
@@ -833,7 +839,7 @@ footer li
       margin-left: 100px;
    }
 
-   #hebergements h2
+   #hebergements h1
    {
       margin: 30px 0px 0px 50px;
       font-size: 1.4em;
@@ -856,13 +862,13 @@ footer li
      background-color: #f2f2f2;
    }
    
-   aside h3
+   aside h1
    {
        font-size: 1.5em;
        margin-left:25px;
    }
 
-    aside h3 i
+    aside h1 i
    {
      padding: 0px 50px 0px 0px; 
    }
@@ -884,7 +890,7 @@ footer li
        margin-top: 20px;
    }
 
-   #activites h4
+   #activites h1
    {
        font-size: 1.5em;
        margin-left:60px;
@@ -968,6 +974,11 @@ footer li
        text-align: center;
    }
 
+   footer a 
+   {
+       color: black;
+   }
+
 }
 
 /* responsive mobile*/
@@ -977,11 +988,12 @@ footer li
 /*header*/
     header
     {
-        width:370px;
+        width:100%;
         margin:auto;
         border: 0px solid red;
         justify-content: stretch;
         height:670px;
+        padding-left: 0px;
     }
    
     #nav_header
@@ -1002,7 +1014,7 @@ footer li
     {
        border: 0px solid red; 
        margin: 0px 0px 0px 0px;
-       width:368px;
+       width:360px;
        padding: 0px;
        margin: auto; 
     }
@@ -1021,15 +1033,15 @@ footer li
     
     header img 
     {
-        height: 50px;
-        margin:0px 0px 0px 30px;
+        height: 55px;
+        margin:0px 0px 0px 0px;
         border: 0px solid red;
         padding: 0px;
     }
 
     header .inscription 
     {
-        margin: 16px 0px 0px -120px;
+        margin: 19px 0px 0px -50px;
         border: 0px solid red;
         font-size:1em;
         font-weight: bold;
@@ -1040,7 +1052,7 @@ footer li
     {
         border: 0px solid red;
         padding-bottom: 15px;
-        font-size:1em;
+        font-size:0.95em;
     }
 
     .nav_li_1
@@ -1048,13 +1060,13 @@ footer li
         border-top: none;
         border-bottom: 3px solid #0065FC;
         font-weight: normal;
-        margin-left: -200px;
+        margin-left: -150px;
         padding-left: 250px;
     }
 
     .nav_li_2
     {
-        padding-right: 200px;
+        padding-right: 300px;
         border-bottom: 3px solid #F2F2F2;
     }
 
@@ -1071,10 +1083,12 @@ footer li
     {
         border: 0px solid red;
         margin-top: 0px;
-        padding-left:30px;
+        padding-left:0px;
         margin-bottom: 40px;
-        width: 338px;
+        margin-left:0px;
+        width:100%;
         height:95px;
+        margin: auto;
     }
 
     #header_title h1
@@ -1093,6 +1107,7 @@ footer li
     button span 
     {
         visibility: hidden;
+        margin-top: 100px;
     }
 
     button
@@ -1103,7 +1118,6 @@ footer li
         margin: 0px 0px 0px 0px;
         border: 0px solid #f2f2f2;
         height: 50px;
-        margin: 0px 0px 0px 0px;
     }
 
     button i
@@ -1120,11 +1134,13 @@ footer li
     
     #box_form 
     {
-       border: 0px solid #f2f2f2;
-       width: 366px;
+       border: 0px solid red;
+       width:100%;
        height:49.8px;
-       margin-left: 28px;
+       margin: auto;
        margin-bottom: 0px;
+       padding: 0px;
+       margin-top: 30px;
     }
 
     #ville
@@ -1144,14 +1160,16 @@ footer li
     {
         border: 0px solid #f2f2f2;
         height:46.5px;
+    
     }
 
     form 
     {
-        border:1px solid #f2f2f2;
-        width: 369px;
+        border:0px solid #f2f2f2;
+        width:100%;
         border-radius: 15px 15px 15px 15px;
-        padding-left: 0px;
+        padding: 0px;
+        margin: auto;
     }
 
      
@@ -1163,14 +1181,15 @@ footer li
         border: 0px solid green;
         height: 200px;
         padding: 0px 0px 0px 0px;
-        margin: 15px 0px 50px 0px;
+        margin: 45px 0px 70px 0px;
     }
 
-    #filtres h1
+    #filtres h3
     {
         text-align: left;
         font-size:1.5em;
-        margin-left:25px;
+        margin: auto;
+        margin-left: 0px;
     }
 
     #filtres ul 
@@ -1179,8 +1198,9 @@ footer li
         display: flex;
         flex-wrap: wrap;
         height: 300px;
-        margin-left:20px ;
-        width: 380px;
+        margin-left:0 ;
+        width:100%;
+        margin: auto;
     }
 
     #filtres li 
@@ -1188,11 +1208,16 @@ footer li
         margin-top: 10px;
     }
 
+    #filtres a 
+    {
+        font-size:0.9em;
+    }
+
     #infos
     {
-      margin: 0px 0px 0px 20px;
-      width:350px; 
-      font-size: 1.4em;  
+      margin-left: 0px;
+      width:100%; 
+      font-size: 1.5em; 
     }
 
     #infos i 
@@ -1206,8 +1231,9 @@ footer li
     section 
     {
       border: 0px solid red;
-      width:380px;
+      width:100%;
       margin: auto;
+      margin-left: 0px;
       padding: 0px;
       flex-direction: column;
       flex-direction: column-reverse;
@@ -1216,18 +1242,21 @@ footer li
     /* les plus populaires*/
     aside
     {
-      margin: 0px;
+      margin:auto;
       border-radius:0px;
       height: 560px;
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 50px;
     }
     
-    aside h3
+    aside h1
     {
         font-size: 1.4em;
         margin-left:-17px;
     }
 
-     aside h3 i
+     aside h1 i
     {
       padding: 0px 20px 0px 0px; 
     }
@@ -1235,7 +1264,7 @@ footer li
       aside a
     {
       
-      margin:0px 10px 10px 20px;
+      margin:0px 20px 10px 20px;
       color: black;
       font-size:0.9em;
     }
@@ -1253,29 +1282,36 @@ footer li
     border: 0px solid red;
     border-radius:0px;
     height:1430px;
-    margin:0px 0px 70px 0px;
-    width: 350px;
+    margin:auto;
+    width:100%;
+    margin-left:0px;
    }
 
-   #hebergements h2
+   #hebergements h1
    {
-      margin:10px 0px 10px 0px;
+      width: 100%; 
+      margin:auto;
+      margin-left:10px;
+      margin-top: 20px;
       font-size: 1.4em;
    }  
 
    #afficher_plus
    {
        font-size: 1.2em;
-       margin:30px 0px 0px 0px;
+       margin:auto;
+       width: 100%;
+       margin-top: 30px;
+       margin-left: 20px;
    }
 
     #hebergements a
    {
     border: 0px solid #f2f2f2;
-    width:330px;
+    width:300px;
     padding:6px 6px 0px 5px;
     border-radius: 20px;
-    margin:15px 10px 0px 20px ;
+    margin: 15px 0px 0px 0px;
     background-color: white;
     box-shadow: 10px 10px 10px #F2F2F2;
     color: black;
@@ -1285,10 +1321,10 @@ footer li
    {
     font-size: 0.7em;
     border: 0px solid red;
-    width:315px;
+    width:300px;
     border-radius: 0px 0px 20px 20px;
     margin:-10px 0px 0px -5px;
-    padding:10px 10px 10px 15px;
+    padding:10px 10px 10px 10px;
     background-color:white;
    }
 
@@ -1296,10 +1332,11 @@ footer li
    {  
     background-size:cover;
     background-position-y:46%;
-    width:330px; 
+    width:300px; 
     height: 120px;
     border: 1px solid #F2F2F2;
     border-radius: 15px 15px 0px 0px;
+
    }
 
    #block_des_images_hebergements
@@ -1309,17 +1346,18 @@ footer li
     justify-content: stretch;
     align-items: stretch;
     align-content: center;
-    margin:0px 0px 0px -15px;
+    margin-left: 0px;
     border:0px solid red;
     padding: 0px;
-    width: 378px;
+    width:100%;
+    margin: auto;
    }
 
    .image_hebergement_4
    {
     background-size:100%;
     background-position-y:49%;
-    width:330px; 
+    width:300px; 
     height: 120px;
     border: 1px solid #F2F2F2;
     border-radius: 15px 15px 0px 0px;
@@ -1330,9 +1368,9 @@ footer li
     {
         display: flex;
         flex-direction: column;
-        margin: 0px -20px 0px 0px;
+        margin: 0px 0px 0px 0px;
         border: 0px solid red;
-        width: 370px;
+        width:100%;
         margin:auto;
         height: 1330px;
     }
@@ -1341,6 +1379,9 @@ footer li
     {
         display: flex;
         flex-direction: column;
+        width:360px;
+        margin: auto;
+        border: 0px solid red;
     }
     
     .image_activite_1
@@ -1348,7 +1389,7 @@ footer li
         background-size:cover;
         background-position-x: 50%;
         background-position-y:25%;
-        width:340px; 
+        width:300px; 
         height:130px;
         border: 0px solid #f2f2f2;
         border-radius: 20px 20px 0px 0px; 
@@ -1360,7 +1401,7 @@ footer li
         background-size:cover;
         background-position-x: 50%;
         background-position-y:45%;
-        width:340px; 
+        width:300px; 
         height:133px;
         border: 0px solid white;
         border-radius: 20px 20px 0px 0px; 
@@ -1372,7 +1413,7 @@ footer li
         background-size:cover;
         background-position-x: 50%;
         background-position-y:25%;
-        width:340px; 
+        width:300px; 
         height:130px;
         border: 0px solid white;
         border-radius: 20px 20px 0px 0px; 
@@ -1385,7 +1426,7 @@ footer li
         background-size:cover;
         background-position-x: 50%;
         background-position-y:20%;
-        width:340px; 
+        width:300px; 
         height:140px;
         border: 0px solid white;
         border-radius: 20px 20px 0px 0px;
@@ -1403,10 +1444,15 @@ footer li
     
     #activites a
     {
-        margin:0px 0px 25px 15px;
+        margin:0px 0px 25px 25px;
         border: 0px solid #f2f2f2;
-        width:342px;
+        width:302px;
         box-shadow: 10px 10px 10px #f2f2f2;
+    }
+
+    #activites h1 
+    {
+        margin-left: 30px;
     }
     
     /*footer*/
@@ -1416,11 +1462,12 @@ footer li
         flex-direction: column;
         justify-content: space-around;
         height:440px;
-        width:85px;
+        width:360px;
         border: 0px solid red;
         margin: auto;
         margin-top: 30px;
         padding-top:20px;
+        margin-left:-10px;
         padding-bottom: 20px;
     }
 
@@ -1431,16 +1478,24 @@ footer li
     padding: 0px;
     font-weight: bold;
     border: 0px solid red;
-    width: 200px;
-    margin:0px 0px 20px -8px;
+    width: 360px;
+    margin:auto;
+    margin-left:0px
     }
 
     footer li
     {
      padding:0px;
-     margin:15px 0px 0px -48px;
      border: 0px solid red;
-     width: 260px;
+     width: 360px;
+     margin: auto;
+     margin-left: -30px;
+     margin-top:20px;
+    }
+
+    footer a 
+    {
+        color: black;
     }
 
 }
