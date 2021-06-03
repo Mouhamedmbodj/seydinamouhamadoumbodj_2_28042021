@@ -4,9 +4,9 @@
 @font-face
 {
     font-family:'Raleway';
-    src: url('assets/font/raleway-variablefont_wght-webfont.woff') format('woff2'),
-         url('assets/font/raleway-variablefont_wght-webfont.woff') format('woff'),
-         url('assets/font/Raleway-VariableFont_wght.ttf') format('truetype');
+    src: url('../font/raleway-variablefont_wght-webfont.woff') format('woff2'),
+         url('../font/raleway-variablefont_wght-webfont.woff') format('woff'),
+         url('../font/Raleway-VariableFont_wght.ttf') format('truetype');
 }
 
 /*éléments principaux de la page*/
@@ -27,85 +27,79 @@ body i
 
 header
 {
-    width:1190px;
+    width:1215px;
     margin: auto;
     border: 0px solid red;
-    margin-bottom: 20px;
-}
-
-/*barre de navigation*/
-#nav_header
-{
-    display: flex;
-    justify-content: space-between;
+    height: 80px;
+    margin-top: -8px;
+    display: flex; 
+    justify-content: space-between;   
 }
 
 header img
 {
   height: 70px;
-}
-
-nav ul
-{
-    display: flex;
-    border: 0px solid red;
-    margin: 0px 0px 0px 560px;
-    padding: 0px 0px 0px 0px;
-}
-
-nav li
-{
-  margin: -8px 0px 0px 0px;
-  border: 0px solid red;
-  padding: 30px 50px 0px 50px;
-}
-
-.nav_li_1 a
-{
- color: #0065FC;
- font-weight: bold;
-}
-
-.nav_li_2 a
-{
-    color:black;
-}
-
-.nav_li_1
-{
-    border-top: 1px solid #0065FC;
-}
-
-.nav_li_2:hover
-{
-  border-top: 1px solid #0065FC;
-}
-
-.nav_li_2 a:hover
-{
-    color: #0065FC;
-    font-weight: bold;
+  margin-top:-5px;
 }
 
 .inscription
 {
-   border: 0px solid red;
-   margin:21px 0px 0px 0px;
+    color: #0065FC;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/*barre de navigation*/
+
+nav
+{
+  border: 0px solid red;
+  width:358px;
+  display: flex;
+  justify-content: stretch;
+  margin-left:615px ;
+}
+
+nav a 
+{
+    padding:30px 13% 0px 13%;
+}
+
+#nav_hebergements
+{
+  border-top: 1px solid #0065FC;
+  color: #0065FC;
+  font-weight: bold;
+}
+
+#nav_activites
+{
+    border-top: 1px solid #F2F2F2;
+    color: black;
+}
+
+#nav_activites:hover
+{
+   border-top: 1px solid #0065FC;
    color: #0065FC;
    font-weight: bold;
- 
 }
 
 /*header title*/
 
-header h1
+#header_title
 {
-  font-size: 1.5em;  
-  margin-top:45px;
+  width: 1215px;
+  margin: auto;
+}
+
+#header_title h1
+{
+  font-size:1.5em;  
   font-weight: bold;
 }
 
-header h2
+#header_title h2
 {
     font-weight: normal;
     font-size:1.1em;
@@ -129,8 +123,7 @@ form
 {
     display: flex;
     text-align: center;
-    justify-content:stretch;
-    width:445px; 
+    justify-content:stretch; 
     border: 0px solid red;
     height: 50px;
 }
@@ -168,10 +161,11 @@ label
 
 #box_form
 {
-    border: 0px solid #F2F2F2;
-    margin-right:884px ;
+    border: 0px solid red;
     border-radius:10px;
     border-radius: 10px;
+    width:1215px;
+    margin: auto;
 }
 
 ::-moz-placeholder
@@ -209,6 +203,8 @@ label
   text-align: center;
   margin-top: 20px;
   display: flex;
+  width:1215px;
+  margin: auto;
 }
 
 #filtres h3
@@ -271,9 +267,11 @@ label
     display: flex;
     align-items: center;
     padding: 0px 0px 0px 0px;
-    margin-top: 20px;
     align-items: flex-start;
     font-size: 1em;
+    width:1215px;
+    margin: auto;
+    margin-top: 20px;
 }
 
 #infos p
@@ -281,7 +279,7 @@ label
  padding-left: 10px;
  font-weight: normal;
  margin:5px 0px 0px 0px;
- font-size: 0.7em;
+ font-size:0.8em;
 }
 
 #infos i
@@ -301,8 +299,8 @@ label
 section
 {
     display: flex;
-    justify-content:stretch;
-    width: 1200px;
+    justify-content:space-between;
+    width:1215px;
     margin: auto;
     border: 0px solid red;
 }
@@ -311,12 +309,12 @@ section
 #hebergements
 {
     background-color:#F2F2F2 ;
-    border: 0px solid red;
+    border: 0px solid green;
     border-radius: 20px;
-    height:575px;
-    width:770px;
+    height:585px;
+    width:95%;
     margin:20px 0px 0px 0px;
-    padding: 10px 15px 0px 15px;
+    padding: 10px 0px 0px 0px;
 }
 
 /* images hebergements avec des caracteristiques commun*/
@@ -325,7 +323,7 @@ section
 {  
    background-size:cover;
    background-position-y:50%;
-   width:220px; 
+   width:100%; 
    height: 100px;
    border: 0px solid red;
    border-radius: 20px 20px 0px 0px;
@@ -336,7 +334,7 @@ section
 {
     background-size:100%;
     background-position-y:48%;
-    width:220px; 
+    width:100%; 
     height: 100px;
     border: 0px solid red;
     border-radius: 20px 20px 0px 0px;
@@ -345,8 +343,11 @@ section
 #block_des_images_hebergements
 {
     display: flex;
-    width:768px;
+    width:100%;
     flex-wrap: wrap;
+    border: 0px solid red;
+    margin: 0px;
+    padding: 0px 0px 0px 40px;
 }
 
 /* images hebergements*/
@@ -386,19 +387,19 @@ section
 .image_hebergement_a
 {
   border: 0px solid red;
-  padding:3px 3px 0px 3px ;
+  padding:3px 3px 4px 3px ;
   border-radius: 20px;
-  margin:30px  15px 0px 15px ;
+  margin:30px  15px 0px 8px ;
   background-color: white;
   color: black;
-  width: 220px;
+  width:220px;
 }
 
 .hebergements_image_legend
 {
     border: 0px solid red;
-    width:225px;
-    height:70px;
+    width:100%;
+    height:auto;
     border-radius: 0px 0px 20px 20px;
     background-color:white;
     margin:0px 0px 0px -3px;
@@ -410,7 +411,7 @@ section
 {
   border: 0px solid red;
   font-weight: normal;
-  margin: 5px 0px 5px 10px;
+  margin: 5px 0px 0px 10px;
 }
 
 .nom_hebergement
@@ -430,6 +431,7 @@ section
 {
     color: #0065FC;
     font-size: 0.7em;
+    margin-bottom: 0px;
 }
 
 .etoiles_gris i
@@ -439,16 +441,16 @@ section
     margin: 0px;
 }
 
-#hebergements h1 
+#hebergements h4
 {
-   margin: 20px 0px 0px 15px;
+   margin: 20px 0px -5px 30px;
    padding-top:10px ;
    font-size: 1.5em;
 }
 
 #afficher_plus
 {
-  margin:30px 0px 0px 15px;
+  margin:30px 0px 0px 35px;
   font-weight: bold;
   font-size: 1.2em;
 }
@@ -461,9 +463,9 @@ aside
     border-radius: 20px;
     background-color:#F2F2F2 ;
     padding-bottom:10px;
-    height:575px;
+    height:585px;
     margin:20px 0px 30px 30px;
-    width:380px;
+    width:40%;
 }
 
 /*images des plus populaires*/
@@ -491,10 +493,11 @@ aside a
     border: 0px solid red;
     border-radius: 20px;
     background-color: white;
-    margin:0px 30px 25px 30px;
+    margin:0px 30px 20px 30px;
     padding: 0px 0px 0px 0px;
-    height: 140px;
+    height:140px;
     color: black;
+    width:300px;
 }
 
 .image3
@@ -502,16 +505,16 @@ aside a
     background-size:cover;
     background-position-x: 40%;
     background-position-y: 50%;
-    width:130px; 
+    width:70%; 
     height: 130px;
     border: 0px solid red;
     border-radius: 20px 0px 0px 20px; 
-    margin: 5px 0px 5px 5px;      
+    margin:5px 0px 5px 5px      
 }
 
 .aside_image_legend
 {
-    width: 150px;
+    width:100%;
     padding: 10px;
     padding-left: 20px;
     font-size:0.8em;
@@ -519,24 +522,25 @@ aside a
     font-weight: bold;
 }
 
-aside h1
+aside h5
 {
-  padding: 15px 0px 0px 35px;  
+  padding: 0px 0px 0px 35px;  
   display: flex;
   justify-content: space-between;
   font-size: 1.5em;
   font-weight: bold;
+  margin-bottom:25px;
 }
 
-aside h1 i
+aside h5 i
 {
-   padding: 0px 20px 0px 0px; 
+   padding: 0px 20px 0px 0px;
 }
 
 .nom_des_plus_populaires
 {
     
-    font-size:1.3em;
+    font-size:1.2em;
     padding-top: 5px;
     margin: 0px 0px 0px 0px;
 }
@@ -545,7 +549,7 @@ aside h1 i
 {
     margin-top:5px;
     font-weight: normal;
-    font-size:1.1em; 
+    font-size:1em; 
 }
 
 aside .etoiles
@@ -560,121 +564,237 @@ aside .etoiles
 {
     display: flex;
     flex-direction: column;
-    width:1230px;
+    width:1215px;
     margin: auto;
-    height:500px;
     border: 0px solid red;
+    margin-bottom: 50px;
 }
 
 #block_des_images_activite
 {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    justify-content:space-between;
+    border: 0px solid red;
+    margin:-10px 0px 0px 0px;
 }
 
 /*images activites*/
 #vieux_port
 {
-    background-image: url(images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg)
+    background-image: url(images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-size:cover;
+    background-position-x:50%;
+    background-position-y:500%;
+    width:100%;
+    height: 100%; 
+    border: 0px solid white;
+    border-radius: 20px 20px 20px 20px; 
+    box-shadow:5px 5px 5px #F2F2F2 ;
+    margin: 0px;
 }
 
 #fort_de_pomegues
 {
-    background-image: url(images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg)
+    background-image: url(images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-size:cover;
+    background-position-x: 50%;
+    background-position-y:50%;
+    width:100%; 
+    height:100%;
+    border: 0px solid white;
+    border-radius: 20px 20px 20px 20px; 
+    box-shadow:5px 5px 5px #F2F2F2;
+    margin: 0px;
 }
 
 #iles_du_frioul
 {
-    background-image: url(images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg)
+    background-image: url(images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-size:cover;
+    background-position-x: 50%;
+    background-position-y:50%;
+    width:100%; 
+    height:100%;
+    border: 0px solid white;
+    border-radius: 20px 20px 20px 20px; 
+    box-shadow:5px 5px 5px #F2F2F2;
+    margin: 0px;
 }
 
 #parc_national_des_calanques
 {
-    background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg)
+    background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-size:cover;
+    background-position-x:50%;
+    background-position-y:0%;
+    width: 100%;
+    height:100%;
+    border: 0px solid white;
+    border-radius: 20px 20px 20px 20px; 
+    box-shadow:5px 5px 5px #F2F2F2 ;
+    margin: 0px;   
 }
 
 #notre_dame_de_le_garde
 {
-    background-image: url(images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg)
+    background-image: url(images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-size:cover;
+    background-position-x: 50%;
+    background-position-y:38%;
+    width:100%; 
+    height:100%;
+    border: 0px solid white;
+    border-radius: 20px 20px 20px 20px; 
+    box-shadow:5px 5px 5px #F2F2F2 ;
+    margin: 0px;  
 }
 
 #parc_longchamp
 {
-    background-image: url(images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg)
-}
-
-.image_activite_1
-{
-    background-size:cover;
-    background-position-x: 45%;
-    background-position-y:100%;
-    width:290px; 
-    height:378px;
-    border: 0px solid white;
-    border-radius: 20px 20px 20px 20px; 
-    box-shadow:5px 5px 5px #F2F2F2 ;    
-}
-
-.image_activite_2
-{
+    background-image: url(images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
     background-size:cover;
     background-position-x: 50%;
-    background-position-y:50%;
-    width:250px; 
-    height:193px;
+    background-position-y:45%;
+    width:100%; 
+    height:100%;
     border: 0px solid white;
     border-radius: 20px 20px 20px 20px; 
-    box-shadow:5px 5px 5px #F2F2F2 
+    box-shadow:5px 5px 5px #F2F2F2 ;
+    margin: 0px;  
 }
 
-.image_activite_3
+/*liens activites */
+
+#activites_a_1
 {
-    background-size:cover;
-    background-position-x: 50%;
-    background-position-y:50%;
-    width:250px; 
-    height:140px;
-    border: 0px solid white;
-    border-radius: 20px 20px 20px 20px; 
-    box-shadow:5px 5px 5px #F2F2F2 
+    width:20%;
+    height:380px;
+    padding: 0px;
 }
 
-.image_activite_4
+#activites_a_2
 {
-  
-    background-size:cover;
-    background-position-x: 50%;
-    background-position-y:50%;
-    width:290px; 
-    height:169px;
-    border: 0px solid white;
-    border-radius: 20px 20px 20px 20px; 
-    box-shadow:5px 5px 5px #F2F2F2 ;   
+  height: 200px;
+  width: 100%;  
 }
 
-.activity_image_legend
+#activites_a_3
+{
+    width: 100%;
+    height: 140px;
+}
+
+#activites_a_4
+{
+  height:380px;
+  width:20%;
+   
+}
+
+#activites_a_5
+{
+   height: 170px; 
+   width: 100%;
+}
+
+#activites_a_6
+{
+   height: 170px;
+   width: 100%;
+}
+
+/*nom des sites des activites*/
+
+.activity_image_legend_1
 {
     background-color: white;
     border:0px solid red ;
     border-radius: 0px 0px 20px 20px;
     height:25px;
-    margin-top:-43px;
-    padding: 10px 0px 15px 10px;
+    margin:-40px 0px 0px 0px ;
+    padding: 5px 0px 12px 0px;
     box-shadow: 5px 5px 5px #F2F2F2;
+    width: 100%;
 }
 
+.activity_image_legend_2
+{
+    background-color: white;
+    border:0px solid red ;
+    border-radius: 0px 0px 20px 20px;
+    height:25px;
+    margin:-40px 0px 0px 0px ;
+    padding: 5px 0px 12px 0px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    width: 100%;
+}
+
+.activity_image_legend_3
+{
+    background-color: white;
+    border:0px solid red ;
+    border-radius: 0px 0px 20px 20px;
+    height:25px;
+    margin:-40px 0px 0px 0px ;
+    padding: 5px 0px 12px 0px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    width: 100%;
+}
+
+.activity_image_legend_4
+{
+    background-color: white;
+    border:0px solid red ;
+    border-radius: 0px 0px 20px 20px;
+    height:25px;
+    margin:-40px 0px 0px 0px ;
+    padding: 5px 0px 12px 0px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    width: 100%;
+}
+
+.activity_image_legend_5
+{
+    background-color: white;
+    border:0px solid red ;
+    border-radius: 0px 0px 20px 20px;
+    height:25px;
+    margin:-40px 0px 0px 0px ;
+    padding: 5px 0px 12px 0px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    width: 100%;
+}
+
+.activity_image_legend_6
+{
+    background-color: white;
+    border:0px solid red ;
+    border-radius: 0px 0px 20px 20px;
+    height:25px;
+    margin:-40px 0px 0px 0px ;
+    padding: 5px 0px 12px 0px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    width: 100%;
+
+}
+
+/*elements principaux activites*/
  .image_activite_block
 {
     display: flex;
     flex-direction:column;
     justify-content:space-between;
+    border: 0px solid red;
+    width:300px;
+    padding: 0px;
+    height: 380px;
 }
 
 #activites a
-{
-    margin-left: 0px;
-    margin-right:0px;
+{ 
     color: black;
+    border: 0px solid green;
 }
 
 #activites p
@@ -683,22 +803,23 @@ aside .etoiles
     margin:10px 0px 10px 10px
 }
 
-#activites h1
+#activites h6
 {
     font-size: 1.5em;
+
 }
 /*footer*/
 
 footer
 {
     display: flex;
-    padding-right:280px;
-    padding-left: 35px;
+    padding-right:0px;
+    padding-left: 0px;
     border: 0px solid #F2F2F2;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color:#F2F2F2 ;
     height:170px ;
-    width:968px;
+    width:1300px;
     margin: auto;
 }
 
@@ -709,6 +830,12 @@ footer h1
     padding: 0px;
     font-weight: bold;
     margin-top: 30px;
+}
+
+footer ul 
+{
+    border: 0px solid red;
+    margin-right: 200px;
 }
 
 footer li
@@ -723,50 +850,81 @@ footer a
 }
 
 /* responsive tablette*/
-@media screen and (min-width:768px) and (max-width:1200px)
+@media screen and (min-width:668px) and (max-width:1200px)
 {
+    
+  #bloc_page
+  {
+      height:auto;
+      width:100%;
+      border: 0px solid red;
+      margin:auto;
+  }
     /*header*/
 
     header
     {
-       width:700px;
-       margin:auto;
+       width:100%;
        border:0px solid red;
-       height:500px; 
+       height: auto; 
+       display:flex;
+       justify-content:space-between;
+       margin-top: -8px;
+       margin-bottom: 50px;
     }
 
-    /*nav_header*/
+    /*barre_de_navigation*/
 
     header img 
     {
-      height:50px;
-    }
-
-    header nav
-    {
-        margin: 0px 0px 0px -400px;
-        padding: 0px;
-    }
+      height:70px;
+      margin-top:0px;
+    }  
 
     .inscription
     {
-        padding: 0px 0px 10px 0px;
-        border: 0px solid red;   
+     margin-top: 34px;
+     margin-right:20px;
+    }
+
+    nav 
+    {
+      border: 0px solid blue;
+      position: absolute;
+      right:0%;
+    }
+
+    header nav a 
+    {
+        padding: 30px 20px 0px 20px ;
+        margin-top:2px;
     }
 
     /*header_title*/
 
     #header_title
     {
+        width:100%;
         border: 0px solid red;
         text-align: center;
+        margin: 0px 0px 40px 0% ;
     }
 
     /*champ de recherche*/
      form 
      {
          border: 0px solid red;
-         margin: 30px 0px 0px 130px;
+         margin:0px 0px 0px 0px;
+         align-content: center;
+         width: 100%;
+     }
+
+     #box_form 
+     {
+         border: 0px solid green;
+         width:70%;
+         padding: 0px;
+         margin:20px 0px 20px 28%
      }
 
     /*filtres*/
@@ -775,29 +933,32 @@ footer a
        display: flex;
        flex-direction: column;
        border: 0px solid green;
-       height: 180px;
+       height: auto;
+       width:70%;
+       margin-left:10%;
+       margin-top:0%;
     }
 
     #filtres ul 
     {
       border: 0px solid red;  
       padding: 0px;
-      width: 450px;
-      height: 130px;
+      width: 100%;
+      height:auto;
       display: flex;
       flex-wrap:wrap;
-      margin: 0px 0px 0px 130px;
+      margin: 10px 0px 0px 0px;
     }
 
     #filtres li 
     {
-       margin-bottom:0px;
+       margin-bottom:10px;
     }
 
 
     #filtres h3
     {
-        margin: 0px 0px 0px 50px;
+        margin: 0px 0px 0px 0px;
         text-align: left;
         font-size: 1.8em;
     }
@@ -807,7 +968,7 @@ footer a
         display: flex;
         justify-content:left;
         font-size: 1.2em;
-        margin-left: 50px;
+        margin-left:11%;
     }
 
     /*section*/
@@ -815,137 +976,208 @@ footer a
     {
         display: flex;
         flex-direction: column-reverse;
-        margin: auto;
         border: 0px solid red;
-        width: 700px;
+        width:70%;
+        height: auto;
     }
 
     /*hebergements*/
     #hebergements
     {
-        width: 668px;
-        height:750px;
-        border: 0px solid red; 
+        width:550px;
+        height:auto;
+        border: 0px solid red;
+        margin: 10%  0% 0px 0%;
+        align-self: center; 
     }
     
     #block_des_images_hebergements
     {   
-      border: 0px solid red;
+      border: 0px solid green;
       border-radius:0px;
       margin:0px;
       display: flex;
       flex-wrap: wrap;
-      width: 700px;
-      margin-left: 100px;
+      width:100%;
+      padding: 0px 0px 0px 0px;
+    
+   }
+    
+   .hebergements_image_legend
+   {
+     height: auto;
    }
 
-   #hebergements h1
+   #block_des_images_hebergements a 
    {
-      margin: 30px 0px 0px 50px;
+       margin-left:28px;
+   }
+
+   #hebergements h4
+   {
+      margin: 30px 0px 0px 10%;
       font-size: 1.4em;
    }  
 
    #afficher_plus
    {
-     margin-left: 50px;
+     margin:5% 0% 5% 10%
    }
 
    /*les plus populaires*/
    aside
    {
-     margin:20px 0px 0px 0px;
-     border-radius:0px;
-     height:600px;
-     width: 700px;
-     border: 0px solid red;
-     box-shadow: 0px 5px 5px #f2f2f2;
-     background-color: #f2f2f2;
+    width:90%;
+    height:auto;
+    border: 0px solid red;
+    margin:5% 0px 0px 35px;   
+    border-radius:0px;
+    box-shadow: 0px 5px 5px #f2f2f2;
+    background-color: #f2f2f2;
    }
    
-   aside h1
+   aside h5
    {
        font-size: 1.5em;
-       margin-left:25px;
+       margin-left:5%;
    }
 
-    aside h1 i
+    aside h5 i
    {
-     padding: 0px 50px 0px 0px; 
+     margin: 0px 70px 0px 0px; 
+     border: 0px solid red;
    }
+
+    .aside_image_legend
+    {
+       height: auto; 
+    }
+    
+    .nom_des_plus_populaires
+    {
+        width: 70%;
+    }
 
      aside a
    {
-     width: 350px;
-     margin-left: 180px;
+     width:70%;
+     margin-left: 13%;
    }
 
    /*activites*/
 
    #activites
    {
-       width: 700px;
-       margin: auto;
-       height:900px;
+       width:80%;
+       margin: 10%  0% 0px 5%;
+       height:auto;
        border: 0px solid red;
-       margin-top: 20px;
+       margin-top:5%;
+       margin-left: 10%;
    }
 
-   #activites h1
+   #activites h4
    {
        font-size: 1.5em;
-       margin-left:60px;
+       margin-left:0%;
    }
    
    #block_des_images_activite
    {
-       display: flex;
+       display:flex;
        flex-wrap: wrap;
-       justify-content: stretch;
-       margin-left: 60px;
+       width:100%;
+       border: 0px solid red;
+       height: auto;
+       margin-top: -55px;
+   }
+
+   #block_des_images_activite :nth-child(2) 
+   { 
+    order: 3;
+    
+   }
+ 
+   /*images activites*/
+
+   #vieux_port
+   { 
+    background-size:cover;
+    background-position-x:10%;
+    background-position-y:50%;
+    width:100%;
+    height: 100%; 
+    border: 0px solid white;
+    border-radius: 20px 20px 20px 20px; 
+    box-shadow:5px 5px 5px #F2F2F2 ;
+    margin: 0px;
+   }
+
+   #parc_national_des_calanques
+   {
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-position-x:50%;
+    background-position-y:20%; 
+    border: 0px solid white;
+    border-radius: 20px 20px 20px 20px; 
+    box-shadow:5px 5px 5px #F2F2F2 ;
+    margin: 0px;
+   }
+   /*liens des images activites*/
+
+   #activites_a_1
+   {
+    height:250px;
+    width:285px;
+   }
+   
+   #activites_a_2
+   {
+    height:250px;
+    width:98%;
+   }
+
+   #activites_a_3
+   {
+    height:250px;
+    width:98%;
+   }
+
+   #activites_a_4
+   {
+    height:250px;
+    width:295px;
+   }
+
+   #activites_a_5
+   {
+    height:250px;
+    width:97%;
+   }
+
+   #activites_a_6
+   {
+    height:250px;
+    width:98%;
    }
 
    #activites a 
    {
-       margin:20px 0px 0px 20px;
+       margin-top:8%
    }
-   
-   .image_activite_2 
-   {
-    background-size:cover;
-    background-position-x: 50%;
-    background-position-y:50%;
-    width:290px; 
-    height:169px;
-    border: 0px solid white;
-    border-radius: 20px 20px 20px 20px; 
-    box-shadow:5px 5px 5px #F2F2F2 ; 
-   }
-
-   .image_activite_3
-   {
-    background-size:cover;
-    background-position-x: 50%;
-    background-position-y:50%;
-    width:290px; 
-    height:169px;
-    border: 0px solid white;
-    border-radius: 20px 20px 20px 20px; 
-    box-shadow:5px 5px 5px #F2F2F2 ; 
-   }
-
    /*footer*/
 
    footer 
    {   display: flex;
-       flex-direction:row;
-       justify-content:space-around;
-       height:170px;
-       width:700px;
+       justify-content: stretch; 
+       height:auto;
+       width:100%;
        border: 0px solid red;
-       margin: auto;
-       padding-top:20px;
-       padding-bottom: 20px;
-       padding: 20px 10px 20px 10px;
+       margin-left:0px;
+       text-align: left;
+       margin-top:5%;    
    }
 
   
@@ -955,23 +1187,32 @@ footer a
    padding: 0px;
    font-weight: bold;
    border: 0px solid red;
-   width: 200px;
-   margin:0px 0px 20px -8px;
+   width: 100%;
+   margin:20px 0px 20px 0px;
+   }
+
+   footer ul 
+   {
+       border:0px solid green;
+       width:75%;
+       margin-top: -5%;
+       
    }
 
    footer li
    {
-    padding:0px;
-    margin:15px 0px 0px -48px;
-    border: 0px solid red;
-    width: 200px;
+    width:130%;
+    border:0px solid red;
+    height: auto;
+    
    }
 
    .footer_ul
    {
        border: 0px solid red;
-       margin: 0px 15px 0px 30px;
-       text-align: center;
+       width:25%;
+       margin-left: 8%;
+       height: auto;
    }
 
    footer a 
@@ -982,101 +1223,81 @@ footer a
 }
 
 /* responsive mobile*/
-
-@media screen and (max-width:768px)  
+@media screen and (max-width:668px)  
 {
+
+  #bloc_page
+  {
+      border: 0px solid red;
+      width:92%;
+      margin: auto;
+      padding: 0px;
+  }
 /*header*/
     header
     {
-        width:100%;
-        margin:auto;
+        width:92%;
         border: 0px solid red;
-        justify-content: stretch;
-        height:670px;
-        padding-left: 0px;
-    }
-   
-    #nav_header
-    {  
-      margin:0px 0px 0px 0px ;
-      border: 0px solid red;
-      height:155px;
+        height:143px;
+        display: flex;
+        margin: 0px 0px 30px 0px;
+        padding: 10px 20px 10px 10px;
     }
 
-    header nav 
-    {
-       margin: 55px 0px 0px -185px;
-       padding: 0px 0px 0px 0px;
-       border: 0px solid green;  
-    }
-
-    nav ul
-    {
-       border: 0px solid red; 
-       margin: 0px 0px 0px 0px;
-       width:360px;
-       padding: 0px;
-       margin: auto; 
-    }
-
-    nav li 
-    {
-        border: 1px solid blue;
-        margin:0px 0px 0px 0px;
-    }
-
-    ul a
-    {
-        color: #DEEBFF; 
-        font-weight: normal; 
-    }
-    
     header img 
     {
-        height: 55px;
-        margin:0px 0px 0px 0px;
         border: 0px solid red;
-        padding: 0px;
+        height:45px;
+        margin:15px 0px 0px 5%
     }
-
-    header .inscription 
+    /*barre_de_naigation*/
+   
+     nav 
     {
-        margin: 19px 0px 0px -50px;
-        border: 0px solid red;
-        font-size:1em;
-        font-weight: bold;
-        height: 20px;
+       border: 0px solid blue;
+       height:50px;
+       width:96%;
+       position: absolute;
+       right:2px;
+       top: 120px;
+       padding: 0px 0px 0px 0px ;
+       display: flex;
+       justify-content:center;
     }
-
-    nav li
+   
+    nav a 
     {
-        border: 0px solid red;
-        padding-bottom: 15px;
-        font-size:0.95em;
+        padding-bottom: 20px;
+        padding-top: 0px;
+        width:101%;
+        font-size: 1.2em;
     }
-
-    .nav_li_1
+    
+    #nav_hebergements
     {
-        border-top: none;
-        border-bottom: 3px solid #0065FC;
-        font-weight: normal;
-        margin-left: -150px;
-        padding-left: 250px;
+     border-top: none;
+     border-bottom: 2px solid #0065FC;
     }
-
-    .nav_li_2
+    
+    #nav_activites
     {
-        padding-right: 300px;
-        border-bottom: 3px solid #F2F2F2;
+       border-top: none;
+       border-bottom: 2px solid #F2F2F2;
     }
-
-    .nav_li_2:hover
+    
+    #nav_activites:hover
     {
-        border-top: none;
-        border-bottom: 3px solid #0065FC;
-        font-weight: normal;
+       border-top:none;
+       color: #0065FC;
+       font-weight: bold;
+       border-bottom:2px solid #0065FC;
     }
-
+    
+    .inscription
+    {
+        margin:30px 0% 0px 0px;
+        font-size: 1.1em;
+    }
 
     /*header_title*/
     #header_title 
@@ -1084,9 +1305,9 @@ footer a
         border: 0px solid red;
         margin-top: 0px;
         padding-left:0px;
-        margin-bottom: 40px;
+        margin-bottom:40px;
         margin-left:0px;
-        width:100%;
+        width:95%;
         height:95px;
         margin: auto;
     }
@@ -1135,12 +1356,12 @@ footer a
     #box_form 
     {
        border: 0px solid red;
-       width:100%;
+       width:95%;
        height:49.8px;
        margin: auto;
-       margin-bottom: 0px;
+       margin-top:20%;
        padding: 0px;
-       margin-top: 30px;
+       margin-left: 0px;
     }
 
     #ville
@@ -1170,6 +1391,7 @@ footer a
         border-radius: 15px 15px 15px 15px;
         padding: 0px;
         margin: auto;
+        margin-left: 3%;
     }
 
      
@@ -1179,15 +1401,15 @@ footer a
         display: flex;
         flex-direction: column;
         border: 0px solid green;
-        height: 200px;
+        height:auto;
         padding: 0px 0px 0px 0px;
-        margin: 45px 0px 70px 0px;
+        margin: 10% 0px 70px 0px;
     }
 
     #filtres h3
     {
         text-align: left;
-        font-size:1.5em;
+        font-size:1.3em;
         margin: auto;
         margin-left: 0px;
     }
@@ -1197,10 +1419,8 @@ footer a
         border:0px solid red;
         display: flex;
         flex-wrap: wrap;
-        height: 300px;
-        margin-left:0 ;
-        width:100%;
-        margin: auto;
+        height: auto;
+        width:30%;
     }
 
     #filtres li 
@@ -1215,15 +1435,17 @@ footer a
 
     #infos
     {
-      margin-left: 0px;
-      width:100%; 
-      font-size: 1.5em; 
+      margin-left: 2px;
+      width:95%; 
+      font-size: 1.2em; 
+      margin-top:-45px;
+      height: auto;
     }
 
     #infos i 
     {
         font-size: 0.5em;
-        margin-top: 5px;
+        margin-top:5px;
     }
 
     /*section*/
@@ -1232,7 +1454,6 @@ footer a
     {
       border: 0px solid red;
       width:100%;
-      margin: auto;
       margin-left: 0px;
       padding: 0px;
       flex-direction: column;
@@ -1242,36 +1463,36 @@ footer a
     /* les plus populaires*/
     aside
     {
-      margin:auto;
+      margin:0px;
       border-radius:0px;
-      height: 560px;
+      height:auto;
       width: 100%;
-      margin-left: 0px;
       margin-top: 50px;
     }
     
-    aside h1
+    aside h5
     {
         font-size: 1.4em;
         margin-left:-17px;
+        height: auto;
     }
 
-     aside h1 i
+     aside h5 i
     {
       padding: 0px 20px 0px 0px; 
     }
 
       aside a
     {
-      
       margin:0px 20px 10px 20px;
       color: black;
       font-size:0.9em;
+      width:90% ;
     }
-
-    .etoiles i
+    
+    .nom_des_plus_populaires
     {
-        font-size:0.7em;
+        width: 80%;
     }
 
     /*hebergements*/
@@ -1281,18 +1502,18 @@ footer a
     background-color:white ;
     border: 0px solid red;
     border-radius:0px;
-    height:1430px;
+    height:auto;
     margin:auto;
     width:100%;
     margin-left:0px;
    }
 
-   #hebergements h1
+   #hebergements h4
    {
       width: 100%; 
       margin:auto;
-      margin-left:10px;
-      margin-top: 20px;
+      margin-left:4%;
+      margin-top:8%;
       font-size: 1.4em;
    }  
 
@@ -1301,14 +1522,14 @@ footer a
        font-size: 1.2em;
        margin:auto;
        width: 100%;
-       margin-top: 30px;
-       margin-left: 20px;
+       margin-top:8%;
+       margin-left:7%;
    }
 
     #hebergements a
    {
     border: 0px solid #f2f2f2;
-    width:300px;
+    width:80%;
     padding:6px 6px 0px 5px;
     border-radius: 20px;
     margin: 15px 0px 0px 0px;
@@ -1321,7 +1542,7 @@ footer a
    {
     font-size: 0.7em;
     border: 0px solid red;
-    width:300px;
+    width:100%;
     border-radius: 0px 0px 20px 20px;
     margin:-10px 0px 0px -5px;
     padding:10px 10px 10px 10px;
@@ -1331,9 +1552,9 @@ footer a
    .image_hebergement
    {  
     background-size:cover;
-    background-position-y:46%;
-    width:300px; 
-    height: 120px;
+    background-position-y:50%;
+    width:100%; 
+    height: 100px;
     border: 1px solid #F2F2F2;
     border-radius: 15px 15px 0px 0px;
 
@@ -1357,7 +1578,7 @@ footer a
    {
     background-size:100%;
     background-position-y:49%;
-    width:300px; 
+    width:100%; 
     height: 120px;
     border: 1px solid #F2F2F2;
     border-radius: 15px 15px 0px 0px;
@@ -1372,87 +1593,150 @@ footer a
         border: 0px solid red;
         width:100%;
         margin:auto;
-        height: 1330px;
+        height: auto;
     }
+
+    /*les images activites*/
 
     #block_des_images_activite
     {
         display: flex;
         flex-direction: column;
-        width:360px;
+        width:100%;
         margin: auto;
         border: 0px solid red;
     }
     
-    .image_activite_1
+    #vieux_port
     {
-        background-size:cover;
-        background-position-x: 50%;
-        background-position-y:25%;
-        width:300px; 
-        height:130px;
-        border: 0px solid #f2f2f2;
-        border-radius: 20px 20px 0px 0px; 
-        box-shadow:5px 5px 5px #F2F2F2 ;    
+        width:100%; 
+        height:175px; 
+        background-position-y:100%;   
     }
     
-    .image_activite_2
+    #fort_de_pomegues
     {
-        background-size:cover;
-        background-position-x: 50%;
-        background-position-y:45%;
-        width:300px; 
-        height:133px;
-        border: 0px solid white;
-        border-radius: 20px 20px 0px 0px; 
-        box-shadow:5px 5px 5px #F2F2F2 
+        width:100%; 
+        height:175px;
+        background-position-y:48%;
     }
     
-    .image_activite_3
+    #iles_du_frioul
     {
-        background-size:cover;
-        background-position-x: 50%;
-        background-position-y:25%;
-        width:300px; 
-        height:130px;
-        border: 0px solid white;
-        border-radius: 20px 20px 0px 0px; 
-        box-shadow:5px 5px 5px #F2F2F2 
+        width:100%; 
+        height:175px;
+        background-position-y:10%;
     }
     
-    .image_activite_4
-    {
-      
-        background-size:cover;
-        background-position-x: 50%;
-        background-position-y:20%;
-        width:300px; 
-        height:140px;
-        border: 0px solid white;
-        border-radius: 20px 20px 0px 0px;
-        box-shadow:5px 5px 5px #f2f2f2 ;   
+    #parc_national_des_calanques
+    {  
+        width:100%; 
+        height:175px; 
+        background-position-y:12%;
     }
-    
-    .activity_image_legend
+
+    #notre_dame_de_le_garde
     {
-        background-color: white;
-        border:0px solid red ;
-        border-radius: 0px 0px 20px 20px;
-        margin: 0px;
-        
+      width: 100%;
+      height:175px;
+      background-position-y:0%;
     }
-    
+
+    #parc_longchamp
+    {
+      width: 100%;
+      height:175px;
+      background-position-y:25%;
+    }
+     
+    /*liens activites */
+
     #activites a
     {
         margin:0px 0px 25px 25px;
-        border: 0px solid #f2f2f2;
-        width:302px;
+        border: 0px solid red;
         box-shadow: 10px 10px 10px #f2f2f2;
     }
 
-    #activites h1 
+    #activites_a_1
     {
-        margin-left: 30px;
+      width:78%;
+      height: 175px;
+    }
+
+    #activites_a_2
+    {
+      width:88%;
+      height: 175px;
+    }
+
+    #activites_a_3
+    {
+      width:88%;
+      height: 175px;
+    }
+
+    #activites_a_4
+    {
+        width:80%;
+        height: 175px;
+        padding-top:20px;
+    }
+
+    #activites_a_5
+    {
+        width:89%;
+        height: 175px;
+    }
+
+    #activites_a_6
+    {
+        width:89%;
+        height: 175px;
+    }
+
+    /*les noms des sites activites */
+    .activity_image_legend_1
+    {    
+        width: 100%;
+    }
+    
+    .activity_image_legend_2
+    {
+        
+        width: 100%;
+    }
+    
+    .activity_image_legend_3
+    {
+        
+        width: 100%;
+    }
+    
+    .activity_image_legend_4
+    {
+       
+        width: 100%;
+    }
+    
+    .activity_image_legend_5
+    {
+       
+        width: 100%;
+    }
+    
+    .activity_image_legend_6
+    {
+       
+        width: 100%;
+    
+    } 
+
+    /*titre activite*/
+    #activites h6 
+    {
+        margin-left:6%;
+        margin-top: 12%;
     }
     
     /*footer*/
@@ -1461,16 +1745,31 @@ footer a
     {   display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height:440px;
-        width:360px;
+        height:auto;
+        width:100%;
         border: 0px solid red;
         margin: auto;
         margin-top: 30px;
         padding-top:20px;
-        margin-left:-10px;
         padding-bottom: 20px;
     }
 
+    .footer_ul 
+    {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    footer ul 
+    {
+        width: 100%;
+        height: 100%;
+        border: 0px solid red;
+        padding: 0px;
+        margin-left:20px;
+        margin-top: 0px;
+    }
    
     footer h1
     {
@@ -1480,16 +1779,17 @@ footer a
     border: 0px solid red;
     width: 360px;
     margin:auto;
-    margin-left:0px
+    margin-left:30px;
+    margin-top: 15px
     }
 
     footer li
     {
      padding:0px;
      border: 0px solid red;
-     width: 360px;
+     width: 100%;
      margin: auto;
-     margin-left: -30px;
+     margin-left: 10px;
      margin-top:20px;
     }
 
