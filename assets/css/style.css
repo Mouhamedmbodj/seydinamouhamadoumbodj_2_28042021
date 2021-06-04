@@ -209,8 +209,8 @@ label
 
 #filtres h3
 {
-    margin:22px 10px 0px 0px;
-    font-size: 1.5em;
+    margin:25px 10px 0px 0px;
+    font-size: 1.2em;
 }
 
 .filtres
@@ -229,7 +229,7 @@ label
   font-weight:bold;
   padding:0px 12px 12px 12px ;
   margin-left: 15px;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 #filtres li
@@ -238,7 +238,7 @@ label
     font-weight: bold;
     border: 1px solid #DEEBFF;
     margin: 0px 20px 0px 0px;
-    height: 42px;
+    height:39px;
 }
 
 #filtres i
@@ -1492,7 +1492,7 @@ footer a
     
     .nom_des_plus_populaires
     {
-        width: 80%;
+        width:90%;
     }
 
     /*hebergements*/
@@ -1602,7 +1602,7 @@ footer a
     {
         display: flex;
         flex-direction: column;
-        width:100%;
+        width:80%;
         margin: auto;
         border: 0px solid red;
     }
@@ -1660,38 +1660,38 @@ footer a
 
     #activites_a_1
     {
-      width:78%;
+      width:220px;
       height: 175px;
     }
 
     #activites_a_2
     {
-      width:88%;
+      width:220px;
       height: 175px;
     }
 
     #activites_a_3
     {
-      width:88%;
+      width:220px;
       height: 175px;
     }
 
     #activites_a_4
     {
-        width:80%;
+        width:220px;
         height: 175px;
         padding-top:20px;
     }
 
     #activites_a_5
     {
-        width:89%;
+        width:220px;
         height: 175px;
     }
 
     #activites_a_6
     {
-        width:89%;
+        width:220px;
         height: 175px;
     }
 
