@@ -43,15 +43,14 @@ header
 
 header img
 {
-  height: 70px;
-  margin-top:-5px;
+  height: 50px;
+  margin-top:15px;
 }
 
 .inscription
 {
     color: #0065FC;
-    font-weight: bold;
-    margin-top: 30px;
+    margin-top:47px;
 }
 
 /*barre de navigation*/
@@ -63,17 +62,22 @@ nav
   display: flex;
   justify-content: stretch;
   margin-left:615px ;
-  margin-top:10px
+  margin-top:7px;
 }
 
 nav a 
 {
-    padding:20px 13% 0px 13%;
+    padding:38px 13% 0px 13%;
 }
 
 #nav_hebergements
 {
-  border-top: 1px solid #0065FC;
+  border-top: 3px solid #0065FC;
+  color: #0065FC;
+}
+
+#nav_hebergements:hover
+{
   color: #0065FC;
   font-weight: bold;
 }
@@ -86,7 +90,7 @@ nav a
 
 #nav_activites:hover
 {
-   border-top: 1px solid #0065FC;
+   border-top: 3px solid #0065FC;
    color: #0065FC;
    font-weight: bold;
 }
@@ -160,7 +164,7 @@ label
 {
     background-color:#F2F2F2;
     border: 1px solid #F2F2F2; 
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 15px 0px 0px 15px;
     margin: 0px;
     height: 45px; 
 }
@@ -181,6 +185,7 @@ label
     color:black !important;
     padding: 0px; 
     font-weight:bold;
+    font-family:  'Raleway';
 }
 
 ::-webkit-input-placeholder 
@@ -189,6 +194,7 @@ label
     font-size: 1.5em;
     padding:11px; 
     font-weight:bold;
+    font-family: 'Raleway' ;
 }
 
 .form_placeholder
@@ -233,27 +239,30 @@ label
 {
   color: black;
   font-weight:bold;
-  padding:0px 12px 12px 12px ;
+  padding:0px 12px 10px 12px ;
   margin-left: 15px;
-  font-size: 0.8em;
+  font-size: 1em;
+  text-align: center;
 }
 
 #filtres li
 {
     border-radius:70px;
     font-weight: bold;
-    border: 1px solid #DEEBFF;
+    border: 3px solid #f2f2f2;
     margin: 0px 20px 0px 0px;
-    height:39px;
+    height:40px;
+    text-align: center;
+    padding: 0px 5px 0px 0px;
 }
 
 #filtres i
 {
     color:#0065FC;
-    border:1px solid#DEEBFF;
-    margin:0px 20px -10px -27px;
+    border:1px solid #DEEBFF;
+    margin:-3px 10px 0px -29px;
     border-radius:70px;
-    font-size: 1em;
+    font-size: 1.2em;
     padding:12px 15px 13px 15px;
     background-color:#DEEBFF ;
     font-weight: bold;
@@ -309,6 +318,7 @@ section
     width:1215px;
     margin: auto;
     border: 0px solid red;
+    margin-bottom: -35px;
 }
 
 /*hebergements*/
@@ -393,7 +403,7 @@ section
 .image_hebergement_a
 {
   border: 0px solid red;
-  padding:3px 3px 4px 3px ;
+  padding:5px 5px 5px 5px ;
   border-radius: 20px;
   margin:30px  15px 0px 8px ;
   background-color: white;
@@ -433,6 +443,12 @@ section
   font-size: 0.75em; 
 }
 
+#hebergements .etoiles
+{
+    border: 0px solid blue;
+    margin: 0px 0px 3px 10px;
+}
+
 .etoiles i
 {
     color: #0065FC;
@@ -449,16 +465,16 @@ section
 
 #hebergements h4
 {
-   margin: 20px 0px -5px 30px;
+   margin: 15px 0px -5px 45px;
    padding-top:10px ;
-   font-size: 1.5em;
+   font-size: 1.3em;
 }
 
 #afficher_plus
 {
-  margin:30px 0px 0px 35px;
+  margin:50px 0px 0px 50px;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 /*block aside les plus populaires*/
@@ -497,10 +513,10 @@ aside a
 {
     display:flex;
     border: 0px solid red;
-    border-radius: 20px;
+    border-radius:20px;
     background-color: white;
-    margin:0px 30px 20px 30px;
-    padding: 0px 0px 0px 0px;
+    margin:0px 30px 28px 30px;
+    padding: 0.5px;
     height:140px;
     color: black;
     width:300px;
@@ -533,14 +549,14 @@ aside h5
   padding: 0px 0px 0px 35px;  
   display: flex;
   justify-content: space-between;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
-  margin-bottom:25px;
+  margin:38px 0px 25px 0px 
 }
 
 aside h5 i
 {
-   padding: 0px 20px 0px 0px;
+   padding: 0px 20px 3px 0px;
 }
 
 .nom_des_plus_populaires
@@ -582,7 +598,7 @@ aside .etoiles
     width: 100%;
     justify-content:space-between;
     border: 0px solid red;
-    margin:-10px 0px 0px 0px;
+    margin:-30px 0px 0px 0px;
 }
 
 /*images activites*/
@@ -811,7 +827,8 @@ aside .etoiles
 
 #activites h6
 {
-    font-size: 1.5em;
+    font-size: 1.3em;
+    margin-bottom: 0px 0px 0px 0px ;
 
 }
 /*footer*/
@@ -883,14 +900,15 @@ footer a
 
     header img 
     {
-      height:70px;
-      margin-top:0px;
+      height:50px;
+      margin-top:20px;
+      margin-left:10px;
     }  
 
     .inscription
     {
-     margin-top: 34px;
-     margin-right:20px;
+     margin-top: 40.5px;
+     margin-right:10px;
     }
 
     nav 
@@ -902,17 +920,17 @@ footer a
 
     header nav a 
     {
-        padding: 30px 20px 0px 20px ;
-        margin-top:2px;
+        padding: 31px 20px 0px 20px ;
+        margin-top:1px;
     }
 
     /*header_title*/
 
     #header_title
     {
-        width:100%;
+        width:90%;
         border: 0px solid red;
-        margin: 0px 0px 40px 0% ;
+        margin: 0px 0px 40px 10px ;
         font-size: 0.95em;
     }
 
@@ -941,7 +959,7 @@ footer a
        border: 0px solid green;
        height: auto;
        width:70%;
-       margin-left:0%;
+       margin-left:11px;
        margin-top:0%;
     }
 
@@ -964,8 +982,8 @@ footer a
 
     #filtres h3
     {
-        margin: 0px 0px 0px 0px;
-        text-align: left;
+        margin: 0px 0px 0px 5px;
+        text-align:left;
         font-size: 1.2em;
     }
 
@@ -974,7 +992,7 @@ footer a
         display: flex;
         justify-content:left;
         font-size: 1.2em;
-        margin-left:0%;
+        margin-left:11px;
         width: 80%;
         border: 0px solid red;
     }
@@ -985,8 +1003,9 @@ footer a
         display: flex;
         flex-direction: column-reverse;
         border: 0px solid red;
-        width:100%;
+        width:98%;
         height: auto;
+        margin-bottom: 20px;
     }
 
     /*hebergements*/
@@ -1005,7 +1024,7 @@ footer a
       margin:auto;
       display: flex;
       flex-wrap: wrap;
-      width:770px;
+      width:765px;
       padding:0px 0px 0px 0px;
     
    }
@@ -1017,13 +1036,13 @@ footer a
 
    #block_des_images_hebergements a 
    {
-       margin-left:10px;
+       margin-left:5px;
    }
 
    #hebergements h4
    {
       margin: 30px 0px 0px 1%;
-      font-size: 1.4em;
+      font-size: 1.2em;
    }  
 
    #afficher_plus
@@ -1045,7 +1064,7 @@ footer a
    
    aside h5
    {
-       font-size: 1.5em;
+       font-size: 1.2em;
        margin-left:0%;
    }
 
@@ -1076,16 +1095,16 @@ footer a
    #activites
    {
        width:100%;
-       margin: 10%  0% 0px 0%;
+       margin:0%  0% 0px 0%;
        height:auto;
        border: 0px solid red;
        margin: auto;
    }
 
-   #activites h4
+   #activites h6
    {
-       font-size: 1.5em;
-       margin-left:0%;
+       font-size: 1.2em;
+       margin-left:15px;
    }
 
    .image_activite_block
@@ -1193,7 +1212,7 @@ footer a
         border:0px solid red;
         height:143px;
         display: flex;
-        margin: 0px 0px 30px 0px;
+        margin: 0px 0px 10px 0px;
         padding: 10px 20px 10px 10px;
     }
 
@@ -1208,11 +1227,11 @@ footer a
      nav 
     {
        border: 0px solid blue;
-       height:50px;
+       height:35px;
        width:100%;
        position: absolute;
-       right:5px;
-       top: 120px;
+       right:0px;
+       top: 100px;
        padding: 0px 0px 0px 0px ;
        display: flex;
        justify-content:center;
@@ -1220,10 +1239,11 @@ footer a
    
     nav a 
     {
-        padding-bottom: 20px;
+        padding-bottom:0px;
         padding-top: 0px;
-        width:38%;
-        font-size: 1.2em;
+        width:100%;
+        font-size: 1em;
+        border: 0px solid blue;
     }
     
     #nav_hebergements
@@ -1236,6 +1256,7 @@ footer a
     {
        border-top: none;
        border-bottom: 2px solid #F2F2F2;
+       padding-right: 18%;
     }
     
     #nav_activites:hover
@@ -1249,7 +1270,7 @@ footer a
     .inscription
     {
         margin:30px 0% 0px 0px;
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     /*header_title*/
@@ -1258,23 +1279,12 @@ footer a
         border: 0px solid red;
         margin-top: 0px;
         padding-left:0px;
-        margin-bottom:40px;
         margin-left:0px;
         width:95%;
         height:95px;
         margin: auto;
+        font-size:1em;
     }
-
-    #header_title h1
-    {
-        margin-top: 0px;
-    }
-
-    #header_title h2
-    {
-       font-size:1.12em;       
-    }
-
 
     /*champ de recherche*/
     
@@ -1311,7 +1321,7 @@ footer a
        width:95%;
        height:49.8px;
        margin: auto;
-       margin-top:20%;
+       margin-top:10%;
        padding: 0px;
        margin-left: 0px;
     }
@@ -1356,16 +1366,16 @@ footer a
         border: 0px solid green;
         height:auto;
         padding: 0px 0px 0px 0px;
-        margin: 10% 0px 70px 0px;
-        width: 100%;
+        margin: 10% 0px 70px 10px;
+        width:95%;
     }
 
     #filtres h3
     {
         text-align: left;
-        font-size:1.3em;
+        font-size:1.2em;
         margin: auto;
-        margin-left: 0px;
+        margin-left:10px;
     }
 
     #filtres ul 
@@ -1389,8 +1399,8 @@ footer a
 
     #infos
     {
-      margin-left: 2px;
-      width:95%; 
+      margin-left:18px;
+      width:88%; 
       font-size: 1.2em; 
       margin-top:-45px;
       height: auto;
@@ -1412,6 +1422,7 @@ footer a
       padding: 0px;
       flex-direction: column;
       flex-direction: column-reverse;
+      margin-bottom: 60px;
     }
     
     /* les plus populaires*/
@@ -1419,15 +1430,15 @@ footer a
     {
       margin:0px;
       border-radius:0px;
-      height:auto;
-      width: 100%;
-      margin-top: 50px;
+      height:560px;
+      width:100%;
+      margin-top: 40px;
     }
     
     aside h5
     {
-        font-size: 1.4em;
-        margin-left:0%;
+        font-size: 1.3em;
+        margin-left:-2%;
         height: auto;
     }
 
@@ -1466,18 +1477,23 @@ footer a
    {
       width:90%; 
       margin:auto;
-      margin-left:1%;
-      margin-top:8%;
-      font-size: 1.4em;
+      margin-left:4%;
+      margin-top:5%;
+      font-size: 1.3em;
    }  
+
+   #hebergements .etoiles 
+   {
+       padding-bottom: 5px;
+   }
 
    #afficher_plus
    {
        font-size: 1.2em;
        margin:auto;
        width:80%;
-       margin-top:8%;
-       margin-left:1%;
+       margin-top:7%;
+       margin-left:2%;
    }
 
     #hebergements a
@@ -1563,6 +1579,7 @@ footer a
         width:100%;
         margin: auto;
         border: 0px solid red;
+        margin-top: -25px;
     }
     
     #vieux_port
@@ -1614,7 +1631,7 @@ footer a
         margin:0px 0px 25px 20px;
         border: 0px solid red;
         box-shadow: 10px 10px 10px #f2f2f2;
-        width:270px;
+        width:320px;
         height: 175px;
     }
 
@@ -1659,8 +1676,8 @@ footer a
     /*titre activite*/
     #activites h6 
     {
-        margin-left:0%;
-        margin-top: 12%;
+        margin-left:2%;
+        margin-top: 0%;
     }
     
     /*footer*/
@@ -1723,4 +1740,3 @@ footer a
     }
 
 }
-
