@@ -63,11 +63,12 @@ nav
   display: flex;
   justify-content: stretch;
   margin-left:615px ;
+  margin-top:10px
 }
 
 nav a 
 {
-    padding:30px 13% 0px 13%;
+    padding:20px 13% 0px 13%;
 }
 
 #nav_hebergements
