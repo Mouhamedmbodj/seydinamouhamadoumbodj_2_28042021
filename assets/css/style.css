@@ -51,6 +51,11 @@ header img
 {
     color: #0065FC;
     margin-top:47px;
+    font-weight: bold;
+}
+
+.inscription:hover{
+    text-shadow:1px 0px 1px #0065FC;
 }
 
 /*barre de navigation*/
@@ -79,7 +84,6 @@ nav a
 #nav_hebergements:hover
 {
   color: #0065FC;
-  font-weight: bold;
 }
 
 #nav_activites
@@ -92,7 +96,6 @@ nav a
 {
    border-top: 3px solid #0065FC;
    color: #0065FC;
-   font-weight: bold;
 }
 
 /*header title*/
@@ -209,33 +212,62 @@ label
 
 /*filtres*/
 
-#filtres
+
+
+.bloc-filtres i
 {
-  height:60px;
-  text-align: center;
-  margin-top: 20px;
-  display: flex;
-  width:1215px;
-  margin: auto;
+    color:#0065FC;
+    border:1px solid #DEEBFF;
+    margin:-3px 10px 0px -29px;
+    border-radius:50%;
+    font-size: 1.2em;
+    padding:14px;
+    background-color:#DEEBFF ;
+    font-weight: bold;
+    text-align: center;
 }
 
-#filtres h3
+.bloc-filtres li:hover
 {
-    margin:25px 10px 0px 0px;
-    font-size: 1.2em;
+    color:#0065FC;
+    box-shadow:2px 2px 2px #0065FC;
+}
+
+.bloc-filtres
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px solid green;
+    width:1215px;
+    margin:auto;
+}
+
+.bloc-filtres_child
+{
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    height: auto;
 }
 
 .filtres
 {
     display: flex;
-    padding-left:0px;
-    height: 100%;
-    margin-top: 0px;
-    align-items: center;
-    margin: 8px 0px 0px 5px ;
+    padding: 0px;
 }
 
-#filtres a
+.filtres li 
+{
+    border-radius:70px;
+    font-weight: bold;
+    border: 3px solid #f2f2f2;
+    margin: 0px 20px 0px 0px;
+    height:43px;
+    text-align: center;
+    padding: 0px 5px 0px 0px  
+}
+
+.filtres a
 {
   color: black;
   font-weight:bold;
@@ -245,34 +277,10 @@ label
   text-align: center;
 }
 
-#filtres li
+.bloc-filtres h3
 {
-    border-radius:70px;
-    font-weight: bold;
-    border: 3px solid #f2f2f2;
-    margin: 0px 20px 0px 0px;
-    height:40px;
-    text-align: center;
-    padding: 0px 5px 0px 0px;
-}
-
-#filtres i
-{
-    color:#0065FC;
-    border:1px solid #DEEBFF;
-    margin:-3px 10px 0px -29px;
-    border-radius:70px;
+    margin:27px 10px 0px 0px;
     font-size: 1.2em;
-    padding:12px 15px 13px 15px;
-    background-color:#DEEBFF ;
-    font-weight: bold;
-    text-align: center;
-}
-
-#filtres li:hover
-{
-    color:#0065FC;
-    box-shadow:2px 2px 2px #0065FC;
 }
 
 /*infos*/
@@ -459,8 +467,9 @@ section
 .etoiles_gris i
 {
     color:#e2e2e2;
-    font-weight: bold;
+    font-weight:bolder;
     margin: 0px;
+    text-shadow:1000px 1000px 1000px #efefef;
 }
 
 #hebergements h4
@@ -952,18 +961,23 @@ footer a
      }
 
     /*filtres*/
-    #filtres
+    .bloc-filtres
     {
        display: flex;
        flex-direction: column;
        border: 0px solid green;
        height: auto;
-       width:70%;
+       width:100%;
        margin-left:11px;
        margin-top:0%;
     }
 
-    #filtres ul 
+    .filtres_child1
+    {
+        margin-bottom: 0px ;
+    }
+
+    .filtres ul 
     {
       border: 0px solid red;  
       padding: 0px;
@@ -974,13 +988,13 @@ footer a
       margin: 10px 0px 0px 0px;
     }
 
-    #filtres li 
+    .filtres li 
     {
        margin-bottom:10px;
     }
 
 
-    #filtres h3
+    .bloc-filtres h3
     {
         margin: 0px 0px 0px 5px;
         text-align:left;
@@ -1094,49 +1108,48 @@ footer a
 
    #activites
    {
-       width:100%;
+       width:80%;
        margin:0%  0% 0px 0%;
        height:auto;
        border: 0px solid red;
        margin: auto;
+       margin-left: 18px;
    }
 
    #activites h6
    {
        font-size: 1.2em;
-       margin-left:15px;
+       margin-left:0px;
+       border: 0px solid red;
+       height: 20px;
+       margin-bottom: 40px;
    }
 
    .image_activite_block
    {
-      display: contents;
+      display:contents;
+      border: 0px solid red;
+      
    }
 
    #block_des_images_activite
-   {
-       display: flex;
+   {  
+       display:flex;
        flex-wrap: wrap;
-       width: 98%;
+       width:100%;
        border: 0px solid green;
-       padding: 0;
-       margin-top: -50px;
-   }
-
-   #block_des_images_activite :nth-child(2) 
-   { 
-    order: 3;
-    
+       padding:0px 70px 0px 70px;
+       margin-top:0px;
    }
  
    /*liens des images activites*/
 
    #activites a 
    {
-       margin-top:8%;
+       margin-bottom:5%;
        width:240px;
        height:230px;
        border: 0px solid red;
-       margin-left:5px;
    }
 
    /*footer*/
@@ -1366,47 +1379,60 @@ footer a
     }
 
     /*filtres*/
-    #filtres
+    .bloc-filtres
     {
         display: flex;
         flex-direction: column;
         border: 0px solid green;
         height:auto;
-        padding: 0px 0px 0px 0px;
-        margin: 10% 0px 70px 10px;
-        width:95%;
+        padding: 0px 0px 0px 22px;
+        margin: 2% 0px 70px 0px;
+        width:90%;
     }
 
-    #filtres h3
+    .bloc-filtres h3
     {
         text-align: left;
-        font-size:1.2em;
-        margin: auto;
-        margin-left:10px;
+        font-size:1.2em; 
     }
 
-    #filtres ul 
+    .filtres_child2
     {
         border:0px solid red;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         height: auto;
-        width:100%;
+        width:98%;
+        align-items: flex-start;
+        margin-top:0px;
+        padding: 0px;
     }
 
-    #filtres li 
+    .filtres_child1
+    {
+        height: auto;
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+        border: 0px solid red;
+    }
+
+    .filtres li 
     {
         margin-top: 10px;
     }
 
-    #filtres a 
+    .filtres a 
     {
         font-size:0.9em;
     }
 
+    /*infos*/
+
     #infos
     {
-      margin-left:18px;
+      margin-left:25px;
       width:88%; 
       font-size: 1.2em; 
       margin-top:-45px;
