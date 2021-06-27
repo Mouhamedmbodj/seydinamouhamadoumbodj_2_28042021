@@ -1501,14 +1501,16 @@ footer a
     margin:auto;
     width:100%;
     margin-left:0px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
    }
 
    #hebergements h4
    {
-      width:90%; 
+      width:295px;
       margin:auto;
-      margin-left:4%;
-      margin-top:5%;
+      margin-top:7%;
       font-size: 1.3em;
    }  
 
@@ -1521,9 +1523,8 @@ footer a
    {
        font-size: 1.2em;
        margin:auto;
-       width:80%;
+       width:295px;
        margin-top:7%;
-       margin-left:4%;
    }
 
     #hebergements a
@@ -1708,10 +1709,13 @@ footer a
     } 
 
     /*titre activite*/
+#block_des_images_activite{
+    margin-top:27px
+}
     #activites h6 
     {
-        margin-left:4%;
-        margin-top: 0%;
+        margin:auto;
+        width:295px;
     }
     
     /*footer*/
